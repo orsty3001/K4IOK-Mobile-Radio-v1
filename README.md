@@ -17,12 +17,6 @@ Features include:
 
 Released under **CERN‑OHL‑W** (hardware) and **Apache‑2.0** (software).
 
-## Quick start
-1. Open `hardware/dual_iq_top.kicad_pro` in KiCad 7+.
-2. Build firmware from `firmware/fw/` using your ARM toolchain.
-3. Load `channels.csv` for example memory channels.
-4. Connect via serial 115200 bps and use commands in `serial_protocol.txt`.
-
 ## Architecture at a Glance
 
      Exciter (0–10 dBm)
@@ -218,6 +212,5 @@ Coil placement: rotate adjacent inductors 90° to reduce magnetic coupling; keep
 Shield cans over LPFs (especially UHF) can buy you 10–15 dB extra stopband stability in a cramped mobile chassis.
 
 Serviceability: bring out test pads for VGG, Idq, FWD/REF voltages, and add a “TUNE” mode in firmware that keys at 5–10 W with manual bias adjust.
-
 
 
