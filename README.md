@@ -1,4 +1,4 @@
-# Dual-IQ VHF/UHF Ham Radio Prototype
+# VHF/UHF 2 Meter 70 CM 50 Watt Mobile Radio Prototype
 
 An open-source dual-receiver mobile radio for 2 m and 70 cm amateur bands.
 Features include:
