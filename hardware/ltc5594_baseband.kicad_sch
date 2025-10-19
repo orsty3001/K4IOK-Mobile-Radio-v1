@@ -1,4 +1,4 @@
-(kicad_sch (version 20211014) (generator ChatGPT)
+(kicad_sch)
   (paper "A4")
   (title_block
     (title "LTC5594 Baseband (I/Q to Codec)")
