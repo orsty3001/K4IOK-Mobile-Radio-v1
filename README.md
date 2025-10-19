@@ -31,15 +31,15 @@ Released under **CERN‑OHL‑W** (hardware) and **Apache‑2.0** (software).
             |
       RF Band Switch (small relays or PIN pair)
         /                         \
-  VHF drive path             UHF drive path
-  (144–148 MHz)              (430–450 MHz)
-   0.5–1 W driver              0.5–1 W driver
-   6–10 dB pad                 6–10 dB pad
+     VHF drive path             UHF drive path
+     (144–148 MHz)              (430–450 MHz)
+     0.5–1 W driver              0.5–1 W driver
+     6–10 dB pad                 6–10 dB pad
         |                         |
-  RA60H1317M1A               RA60H4047M1
-   Final @ 12.5 V             Final @ 12.5 V
+     RA60H1317M1A               RA60H4047M1
+     Final @ 12.5 V             Final @ 12.5 V
         |                         |
-  2 m LPF (50 Ω)             70 cm LPF (50 Ω)
+     2 m LPF (50 Ω)             70 cm LPF (50 Ω)
         \                         /
            Post-PA Diplexer/Combiner (2-way)
                         |
