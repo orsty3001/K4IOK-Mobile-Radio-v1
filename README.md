@@ -1,5 +1,8 @@
 # VHF/UHF 2 Meter 70 CM 50 Watt Mobile Radio Prototype
 
+<img width="309" height="340" alt="k4iok_Logo" src="https://github.com/user-attachments/assets/59a5330e-5107-4f39-bcd6-d4d3e6f0e353" />
+
+
 An open-source dual-receiver mobile radio for 2 m and 70 cm amateur bands.
 Features include:
 
