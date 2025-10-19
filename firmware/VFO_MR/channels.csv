@@ -1,0 +1,5 @@
+ChannelName,VFO,RX_Freq_MHz,TX_Freq_MHz,Offset_kHz,OffsetDir,Mode,Step_kHz,TxPower_W,Squelch,ScanAdd,Bank,Priority,ToneMode,CTCSS_Tx_Hz,CTCSS_Rx_Hz,DCS_Tx_Code,DCS_Tx_Polarity,DCS_Rx_Code,DCS_Rx_Polarity,DTMF_Tx,Comment
+146.520,A,146.52,146.52,0,SIMPLEX,NFM,12.5,50,5,1,Local,0,CTCSS,0,0,,,,,,National 2m Simplex
+146.940-,A,146.94,146.34,-600,MINUS,NFM,12.5,50,5,1,Local,1,CTCSS,123.0,123.0,,,,,,Local repeater
+147.120+,B,147.12,147.72,600,PLUS,NFM,12.5,25,4,1,Travel,0,DCS,0,0,023,N,023,N,,DCS repeater
+446.000,B,446.0,446.0,0,SIMPLEX,NFM,12.5,10,3,1,Local,0,NONE,0,0,,,,,,National 70cm Simplex

@@ -1,0 +1,6 @@
+RefDes,Value (SI),Notes
+C1,2.7e-11,C0G 100 V
+L2,4.7e-08,"Air-core, 6 mm dia, 18 AWG"
+C3,3.9e-11,C0G 100 V
+L4,8.2e-08,"Air-core, 6–8 mm dia, 18 AWG"
+C5,5.6e-11,C0G 100 V

@@ -1,0 +1,4 @@
+RefDes,Inductance (H),Turns (approx),Former Ø,Wound length,Notes
+L1,8.2e-08,3.40 turns,8.0 mm,5.3 mm,"Air-core, 8 mm dia, 16 AWG"
+L3,1.5e-07,5.30 turns,8.0 mm,8.2 mm,"Air-core, 8–10 mm dia, 16 AWG"
+L5,1.5e-07,5.30 turns,8.0 mm,8.2 mm,"Air-core, 8–10 mm dia, 16 AWG"

@@ -1,0 +1,26 @@
+{
+  "channel": {
+    "ChannelName": "string <=16",
+    "VFO": "A|B",
+    "RX_Freq_MHz": "float(118.0..520.0)",
+    "TX_Freq_MHz": "float(118.0..520.0)",
+    "Offset_kHz": "float(-7500..+7500)",
+    "OffsetDir": "SIMPLEX|PLUS|MINUS|SPLIT",
+    "Mode": "FM|NFM",
+    "Step_kHz": "2.5|5|6.25|10|12.5|20|25|50",
+    "TxPower_W": "float(1..60)",
+    "Squelch": "int(0..9)",
+    "ScanAdd": "0|1",
+    "Bank": "string <=16",
+    "Priority": "0|1",
+    "ToneMode": "NONE|CTCSS|DCS|CTCSS_TX|CTCSS_RX|DCS_TX|DCS_RX",
+    "CTCSS_Tx_Hz": "float(0 or 67.0..254.1)",
+    "CTCSS_Rx_Hz": "float(0 or 67.0..254.1)",
+    "DCS_Tx_Code": "string(3 digits)",
+    "DCS_Tx_Polarity": "N|I",
+    "DCS_Rx_Code": "string(3 digits)",
+    "DCS_Rx_Polarity": "N|I",
+    "DTMF_Tx": "string digits",
+    "Comment": "string"
+  }
+}

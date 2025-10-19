@@ -1,0 +1,25 @@
+(kicad_sch (version 20211014) (generator ChatGPT)
+  (paper "A4")
+  (title_block
+    (title "TLV320AIC3204 Codec (I²S)")
+    (company "Dual-IQ Mobile VHF/UHF")
+    (rev "A0")
+  )
+  
+  (text "TLV320AIC3204 Codec Sheet" (at 50 30 0) (effects (font (size 2 2))))
+  (text "Notes: 1) Use single master clock from TCXO tree. 2) Route I²S to MCU with controlled impedance.
+3) Provide headphone/speaker DAC paths only if needed; here ADC (I/Q) used for RX." (at 50 40 0))
+  (symbol (lib_id "Audio:TLV320AIC3204") (at 80 80 0) (unit 1)
+    (property "Reference" "U10" (at 0 0 0))
+    (property "Value" "TLV320AIC3204" (at 0 -2 0))
+  )
+  (symbol (lib_id "Connector:Conn_01x08") (at 160 90 0) (unit 1)
+    (property "Reference" "J_I2S" (at 0 0 0))
+    (property "Value" "I2S to MCU (SD/WS/SCK/MCLK)" (at 0 -2 0))
+  )
+  (symbol (lib_id "Connector:Conn_01x04") (at 160 70 0) (unit 1)
+    (property "Reference" "J_IQ_IN" (at 0 0 0))
+    (property "Value" "From LTC5594 I/Q" (at 0 -2 0))
+  )
+
+)

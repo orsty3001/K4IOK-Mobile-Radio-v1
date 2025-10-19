@@ -1,0 +1,28 @@
+{
+  "i2s": {
+    "rx": {
+      "ws": "PA4",
+      "sck": "PA5",
+      "sd": "PA6",
+      "mclk": "PA7"
+    },
+    "tx": {
+      "ws": "PB12",
+      "sck": "PB13",
+      "sd": "PB15",
+      "mclk": "PB14"
+    }
+  },
+  "spi": {
+    "sck": "PB3",
+    "mosi": "PB5",
+    "miso": "PB4",
+    "cs": "PB6"
+  },
+  "gpio": {
+    "ptt_in": "PC13",
+    "band_sel_vhf": "PC14",
+    "band_sel_uhf": "PC15",
+    "rx_blank": "PD2"
+  }
+}

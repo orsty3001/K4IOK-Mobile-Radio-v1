@@ -1,0 +1,11 @@
+Part,Description,Notes,Scope,Qty
+RFFC2072,Qorvo Wideband Synthesizer/Mixer,LO source for VHF/UHF downconversion,VHF & UHF,2
+LTC5594,Analog Devices 100 MHz–1.3 GHz IQ Demodulator,Quadrature baseband output,Per RX,2
+TLV320AIC3204,TI Low-power stereo codec,I²S ADC/DAC (I/Q per RX),Per RX,2
+TCXO 26.000 MHz,±0.5 ppm,Clock for LO/codec; distribute,Common,1
+SAW/LC Preselectors,VHF & UHF,2-pole band-pass per band and per RX,Per RX per band,4
+Low-noise LNA,"VHF: NF≤1.0 dB, UHF: NF≤1.2 dB",High IP3,Per RX per band,4
+PIN diode limiter,Aeroflex/MA4P series,Front-end protection,Per RX per band,4
+IQ Anti-alias LPF,RC active or LC,fc ~ 12–15 kHz,Per RX,2
+MCU STM32H743,Cortex-M7,DSP + I/O,Common,1
+Level translators,I²S/Logic,as needed,Common,2

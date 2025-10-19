@@ -1,0 +1,11 @@
+Part Number,Description,Manufacturer,Qty
+LTC5594,100MHz–1.3GHz IQ Demodulator,Analog Devices,2
+TLV320AIC3204,Audio Codec,Texas Instruments,2
+RFFC2072,Wideband Synthesizer,Qorvo,2
+STM32H743,MCU Cortex-M7,STMicroelectronics,1
+RA60H1317M1,50W Power Amplifier,Mitsubishi,1
+OPA1642,Low Noise Op Amp,Texas Instruments,4
+BPF144,Band Pass Filter 2m,Mini-Circuits,1
+BPF430,Band Pass Filter 70cm,Mini-Circuits,1
+Display,TFT 3.2'' ILI9341,Waveshare,1
+Encoder,Rotary Encoder,Bourns,1

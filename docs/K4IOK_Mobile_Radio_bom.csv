@@ -1,0 +1,22 @@
+Part Number,Description,Manufacturer,Function,Qty
+RFFC2072,Wideband Synthesizer/LO,Qorvo,LO generator for both bands,2
+LTC5594,100 MHz–1.3 GHz IQ Demodulator,Analog Devices,RX IQ demodulator,2
+TLV320AIC3204,Stereo audio codec,Texas Instruments,ADC/DAC for IQ and tones,2
+STM32H743,Cortex‑M7 MCU,STMicroelectronics,Main control and DSP processor,1
+HY27S,TCXO ±0.5 ppm 26 MHz,Abracon,Master clock reference,1
+OPA1642,Low‑noise op‑amp,TI,Anti‑alias filter and preamp,4
+BPF144,144 MHz band‑pass filter,Mini‑Circuits,Front‑end preselector,2
+BPF430,430 MHz band‑pass filter,Mini‑Circuits,Front‑end preselector,2
+LNA144,Low‑noise amplifier 144 MHz,Mini‑Circuits,RF front‑end LNA,2
+LNA430,Low‑noise amplifier 430 MHz,Mini‑Circuits,RF front‑end LNA,2
+PIN‑DIODE,RF PIN diode MA4P7102F,MACOM,T/R and blanking network,8
+PA‑MODULE,RF power amplifier 50 W 2 m/70 cm,Mitsubishi RA series,Final stage,1
+LPF2M,Low‑pass filter 2 m band,Custom LC,Harmonic suppression,1
+LPF70CM,Low‑pass filter 70 cm band,Custom LC,Harmonic suppression,1
+Relay‑RF,Miniature coaxial relay,Teledyne,Band select & RX/TX path,4
+Display,"TFT 3.2"" 320×240 ILI9341",Waveshare,Main UI display,1
+Encoder,Rotary encoder with push switch,Bourns,VFO tuning control,1
+Speaker,8 Ω 1 W miniature,CUI,AF output,1
+Mic,Electret condenser mic,CUI,Audio input,1
+SD‑Card,MicroSD slot,Amphenol,Config storage / logging,1
+Power,DC‑DC converter 13.8 V→5 V/3.3 V,Murata,Main PSU,1

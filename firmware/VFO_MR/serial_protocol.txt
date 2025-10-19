@@ -1,0 +1,17 @@
+HAM-PROTO v0.1 (serial, 115200-8N1)
+
+# Commands
+INFO?       -> JSON model, fw, bands
+MEMCNT?     -> integer count
+MEMGET <i>  -> JSON channel
+MEMSET <i> <json> -> store
+MEMCLR <i>  -> clear
+VFOGET A|B  -> JSON VFO state
+VFOSET A|B <json> -> set params
+SAVE        -> commit
+RESET       -> warm reset
+
+# Example
+> MEMGET 1
+< {"ChannelName":"146.940-","VFO":"A","RX_Freq_MHz":146.94,...}
+< OK
